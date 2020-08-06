@@ -1,5 +1,4 @@
-# Anthos Configuration Management Directory
+# Config Sync
 
-This is the root directory for Anthos Configuration Management.
-
-See [our documentation](https://cloud.google.com/anthos-config-management/docs/repo) for how to use each subdirectory.
+* https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync
+* https://github.com/GoogleCloudPlatform/csp-config-management
