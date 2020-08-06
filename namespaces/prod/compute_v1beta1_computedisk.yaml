@@ -12,15 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: compute.cnrm.cloud.google.com/v1beta1
-kind: ComputeDisk
-metadata:
-  name: computeinstance-dep-fromtemplate
-  namespace: prod
-  annotations:
-    cnrm.cloud.google.com/project-id: prod-svc-1
-spec:
-  physicalBlockSizeBytes: 4096
-  size: 1
-  type: pd-ssd
-  location: us-west1-c
+# apiVersion: compute.cnrm.cloud.google.com/v1beta1
+# kind: ComputeDisk
+# metadata:
+#   name: computeinstance-dep-fromtemplate
+#   namespace: prod
+#   annotations:
+#     cnrm.cloud.google.com/project-id: prod-svc-1
+# spec:
+#   physicalBlockSizeBytes: 4096
+#   size: 1
+#   type: pd-ssd
+#   location: us-west1-c
